@@ -1,0 +1,15 @@
+# Dependency directory
+/node_modules
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ENV
+.env
+
+# Custom
+package-lock.json

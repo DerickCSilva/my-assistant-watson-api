@@ -1,0 +1,35 @@
+<!doctype html>
+
+<head>
+    <base href="/">
+    <title>Chatbot Pessoal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <link href="css/google-fonts.css" rel="stylesheet">
+    <link rel='stylesheet' href='css/material-icons.css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="body">
+        <div id="chat-box" class="closed">
+            <div class="chat-box-body" id="chat-box-body">
+                <div class="chat-logs" id="log"></div>
+            </div>
+            <form class="chat-input" id="input-box" autocomplete="off">
+                <input type="text" id="chat-input" placeholder="{{ placeholderEnvioMensagem }}" />
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/common.js"></script>
+<script src="js/api.js"></script>
+<script src="js/conversation.js"></script>
+<script src="js/mobile.js"></script>
+
+</html>

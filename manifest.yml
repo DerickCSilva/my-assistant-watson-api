@@ -1,0 +1,9 @@
+---
+applications:
+- name: senac-cf-geduc
+  command: npm start
+  hostname: senac-cf-geduc
+  memory: 256M
+  instances: 1
+  buildpacks:
+    - sdk-for-nodejs

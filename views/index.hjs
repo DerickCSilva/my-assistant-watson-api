@@ -1,0 +1,23 @@
+<!doctype html>
+
+<head>
+    <base href="/">
+    <title>Chatbot Pessoal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="/widget/widgetChatBot.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+</body>
+<script src="/widget/widgetChatBot.js"></script>
+<script>
+    widgetChatBot.init({
+        domain: ""
+    });
+</script>
+
+</html>
