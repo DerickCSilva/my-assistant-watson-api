@@ -3,6 +3,17 @@
 
 Projeto desenvolvido no intuito de construir um chatbot (front-end, back-end e fluxograma), no intuito de agregar em meu portifólio.
 
+## Configuração Watson
+
+É necessário configurar as variáveis de ambiente do seu assistente para que você consiga rodar seu projeto sem erro.
+
+```js
+// Exemplo de .env
+ASSISTANT_ID = xxxxxxxxxxxxxxxxxxx
+ASSISTANT_API_VERSION = 2018-11-08
+ASSISTANT_API_KEY = zzzzzzzzzzzzzz
+```
+
 ## Instalação / Iniciar
 
 Uma breve introdução sobre a configuração mínima necessária para rodar o projeto.
