@@ -156,11 +156,15 @@ const conversation = (() => {
     const sendMessage = (text) => {
         displayTextOutput('', 'from-chatbot-loading');
 
-        if (common.getUrlParam("chapa") != null) {
+        if (common.getUrlParam("chapa")) {
             contextLocal.chapa = common.getUrlParam("chapa");
         }
 
         api.sendRequestMessage(text, contextLocal).then(response => {
+            if(!response.output.generic.length) {
+                common.removeElementByClassName('from-chatbot-loading');
+            }
+
             contextLocal = response.context;
             const messageQueue = response.output.generic;
             displayResponse(0, messageQueue);
